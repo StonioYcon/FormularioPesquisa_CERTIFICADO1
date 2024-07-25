@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- questao 1 -->
+    <h1 id="title">Formulário de pesquisa freeCodeCamp</h1>
+    <!-- questao 2 -->
+    <p id="description">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+    <!-- questao 3 -->
+    <form id="survey-form">
+        <!-- questao 4 -->
+        <label id="name-label" for="name">Nome:</label>
+        <input id="name" type="text" required placeholder="aaaaa aa aaa aaaaaa ">
+        <!-- questao 5 -->
+        <label id="email-label" for="email">E-mail:</label>
+        <input id="email" type="email" required placeholder="aaaaaaaaa@aaaaa.aaa">
+        <!-- questao 6 -->
+        <label id="number-label" for="number">Idade:</label>
+        <input type="number" name="numero" id="number" min="18" max="65" placeholder="00">
+        <!-- questao 12 -->
+        <label for="dropdown">Qual é a sua função atual?</label>
+        <select id="dropdown" name="job">
+            <option value="mil">Milico</option>
+            <option value="ped">Pedreiro</option>
+            <option value="con">Concursado</option>
+        </select>
+        <!-- questao 13 -->
+        <label for="recommend-yes"><input type="radio" name="recomendaria" value="sim" id="recommend-yes"> Sim</label>
+        <label for="recommend-no"><input type="radio" name="recomendaria" value="nao" id="recommend-no"> Não</label>
+        <!-- questao 14 -->
+        <label for="interest1"><input type="checkbox" value="valor1" id="interest1"> Opção 1</label>
+        <label for="interest2"><input type="checkbox" value="valor2" id="interest2"> Opção 2</label>
+        <label for="interest3"><input type="checkbox" value="valor3" id="interest3"> Opção 3</label>
+        <!-- questao 15 -->
+        <label for="comments">Comentários:</label>
+        <textarea id="comments"></textarea>
+        <!-- questao 16 -->
+        <input id="submit" type="submit" value="Enviar">
+    </form>
+</body>
+</html>
